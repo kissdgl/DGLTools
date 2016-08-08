@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5082112FF316D190A67617E /* Pods_DGLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */; };
 		EF0CCA571D5876C00063719E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA561D5876C00063719E /* main.m */; };
 		EF0CCA5A1D5876C00063719E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA591D5876C00063719E /* AppDelegate.m */; };
 		EF0CCA5D1D5876C00063719E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA5C1D5876C00063719E /* ViewController.m */; };
@@ -14,9 +15,26 @@
 		EF0CCA621D5876C00063719E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0CCA611D5876C00063719E /* Assets.xcassets */; };
 		EF0CCA651D5876C00063719E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0CCA631D5876C00063719E /* LaunchScreen.storyboard */; };
 		EF0CCA721D5877600063719E /* QRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA711D5877600063719E /* QRCodeManager.m */; };
+		EF0CCA781D587AC60063719E /* QRCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA771D587AC60063719E /* QRCodeManager.swift */; };
+		EF0CCA7C1D587C1F0063719E /* DGLHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA7B1D587C1F0063719E /* DGLHttpTool.m */; };
+		EF0CCA841D587E7C0063719E /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA7F1D587E7C0063719E /* EncryptionTools.m */; };
+		EF0CCA851D587E7C0063719E /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA811D587E7C0063719E /* NSString+Hash.m */; };
+		EF0CCA861D587E7C0063719E /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA831D587E7C0063719E /* RSACryptor.m */; };
+		EF0CCA8B1D5880A70063719E /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA8A1D5880A70063719E /* NSDictionary+Log.m */; };
+		EF0CCA8F1D5881070063719E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA8E1D5881070063719E /* UIColor+Hex.m */; };
+		EF0CCA921D58820B0063719E /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA911D58820B0063719E /* SQLiteManager.swift */; };
+		EF0CCA941D5882790063719E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0CCA931D5882790063719E /* libsqlite3.0.tbd */; };
+		EF0CCA971D5883410063719E /* PhotoBrowserAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA961D5883410063719E /* PhotoBrowserAnimator.swift */; };
+		EF0CCA9D1D5884220063719E /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA9A1D5884220063719E /* UIImage+Render.m */; };
+		EF0CCA9E1D5884220063719E /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA9C1D5884220063719E /* UIImageView+Download.m */; };
+		EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA51D58874A0063719E /* UIView+Frame.m */; };
+		EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA91D5887F80063719E /* DGLFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E9F4FDE6D17D68960FCD4C /* Pods-DGLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools.debug.xcconfig"; sourceTree = "<group>"; };
+		A765C8F9E35BFDF9E940BED9 /* Pods-DGLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools.release.xcconfig"; sourceTree = "<group>"; };
 		EF0CCA521D5876C00063719E /* DGLTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGLTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0CCA561D5876C00063719E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF0CCA581D5876C00063719E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +47,29 @@
 		EF0CCA661D5876C00063719E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF0CCA701D5877600063719E /* QRCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeManager.h; sourceTree = "<group>"; };
 		EF0CCA711D5877600063719E /* QRCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeManager.m; sourceTree = "<group>"; };
+		EF0CCA771D587AC60063719E /* QRCodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeManager.swift; sourceTree = "<group>"; };
+		EF0CCA7A1D587C1F0063719E /* DGLHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLHttpTool.h; sourceTree = "<group>"; };
+		EF0CCA7B1D587C1F0063719E /* DGLHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLHttpTool.m; sourceTree = "<group>"; };
+		EF0CCA7E1D587E7C0063719E /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		EF0CCA7F1D587E7C0063719E /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		EF0CCA801D587E7C0063719E /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		EF0CCA811D587E7C0063719E /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		EF0CCA821D587E7C0063719E /* RSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACryptor.h; sourceTree = "<group>"; };
+		EF0CCA831D587E7C0063719E /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = "<group>"; };
+		EF0CCA8A1D5880A70063719E /* NSDictionary+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
+		EF0CCA8D1D5881070063719E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		EF0CCA8E1D5881070063719E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		EF0CCA911D58820B0063719E /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		EF0CCA931D5882790063719E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EF0CCA961D5883410063719E /* PhotoBrowserAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBrowserAnimator.swift; sourceTree = "<group>"; };
+		EF0CCA991D5884220063719E /* UIImage+Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Render.h"; sourceTree = "<group>"; };
+		EF0CCA9A1D5884220063719E /* UIImage+Render.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Render.m"; sourceTree = "<group>"; };
+		EF0CCA9B1D5884220063719E /* UIImageView+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Download.h"; sourceTree = "<group>"; };
+		EF0CCA9C1D5884220063719E /* UIImageView+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Download.m"; sourceTree = "<group>"; };
+		EF0CCAA41D58874A0063719E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EF0CCAA51D58874A0063719E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		EF0CCAA81D5887F80063719E /* DGLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLFileManager.h; sourceTree = "<group>"; };
+		EF0CCAA91D5887F80063719E /* DGLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +77,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0CCA941D5882790063719E /* libsqlite3.0.tbd in Frameworks */,
+				A5082112FF316D190A67617E /* Pods_DGLTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DC63EA4E1B685148627FBD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95E9F4FDE6D17D68960FCD4C /* Pods-DGLTools.debug.xcconfig */,
+				A765C8F9E35BFDF9E940BED9 /* Pods-DGLTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAD6990C7809D18B054611FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA931D5882790063719E /* libsqlite3.0.tbd */,
+				08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF0CCA491D5876C00063719E = {
 			isa = PBXGroup;
 			children = (
-				EF0CCA6C1D5877380063719E /* Tools */,
 				EF0CCA541D5876C00063719E /* DGLTools */,
 				EF0CCA531D5876C00063719E /* Products */,
+				4DC63EA4E1B685148627FBD7 /* Pods */,
+				EAD6990C7809D18B054611FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,10 +124,7 @@
 		EF0CCA541D5876C00063719E /* DGLTools */ = {
 			isa = PBXGroup;
 			children = (
-				EF0CCA581D5876C00063719E /* AppDelegate.h */,
-				EF0CCA591D5876C00063719E /* AppDelegate.m */,
-				EF0CCA5B1D5876C00063719E /* ViewController.h */,
-				EF0CCA5C1D5876C00063719E /* ViewController.m */,
+				EF0CCA6C1D5877380063719E /* Tools */,
 				EF0CCA551D5876C00063719E /* Supporting Files */,
 			);
 			path = DGLTools;
@@ -74,6 +133,10 @@
 		EF0CCA551D5876C00063719E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF0CCA581D5876C00063719E /* AppDelegate.h */,
+				EF0CCA591D5876C00063719E /* AppDelegate.m */,
+				EF0CCA5B1D5876C00063719E /* ViewController.h */,
+				EF0CCA5C1D5876C00063719E /* ViewController.m */,
 				EF0CCA5E1D5876C00063719E /* Main.storyboard */,
 				EF0CCA611D5876C00063719E /* Assets.xcassets */,
 				EF0CCA631D5876C00063719E /* LaunchScreen.storyboard */,
@@ -86,10 +149,18 @@
 		EF0CCA6C1D5877380063719E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EF0CCAA71D5887F80063719E /* File相关 */,
+				EF0CCAA31D58874A0063719E /* UIView相关 */,
+				EF0CCA981D5884220063719E /* UIImage相关 */,
+				EF0CCA951D5883410063719E /* 动画相关 */,
+				EF0CCA901D5881DF0063719E /* SQLite_FMDB封装 */,
+				EF0CCA8C1D5881070063719E /* UIColor */,
+				EF0CCA871D587F110063719E /* NSDictionnary */,
+				EF0CCA7D1D587E2F0063719E /* Encrypt加密 */,
+				EF0CCA791D587C050063719E /* 网络请求工具类 */,
 				EF0CCA6D1D5877380063719E /* 二维码 */,
 			);
-			name = Tools;
-			path = DGLTools/Tools;
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		EF0CCA6D1D5877380063719E /* 二维码 */ = {
@@ -113,8 +184,93 @@
 		EF0CCA6F1D5877380063719E /* SWIFT */ = {
 			isa = PBXGroup;
 			children = (
+				EF0CCA771D587AC60063719E /* QRCodeManager.swift */,
 			);
 			path = SWIFT;
+			sourceTree = "<group>";
+		};
+		EF0CCA791D587C050063719E /* 网络请求工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA7A1D587C1F0063719E /* DGLHttpTool.h */,
+				EF0CCA7B1D587C1F0063719E /* DGLHttpTool.m */,
+			);
+			path = "网络请求工具类";
+			sourceTree = "<group>";
+		};
+		EF0CCA7D1D587E2F0063719E /* Encrypt加密 */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA7E1D587E7C0063719E /* EncryptionTools.h */,
+				EF0CCA7F1D587E7C0063719E /* EncryptionTools.m */,
+				EF0CCA801D587E7C0063719E /* NSString+Hash.h */,
+				EF0CCA811D587E7C0063719E /* NSString+Hash.m */,
+				EF0CCA821D587E7C0063719E /* RSACryptor.h */,
+				EF0CCA831D587E7C0063719E /* RSACryptor.m */,
+			);
+			path = "Encrypt加密";
+			sourceTree = "<group>";
+		};
+		EF0CCA871D587F110063719E /* NSDictionnary */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA8A1D5880A70063719E /* NSDictionary+Log.m */,
+			);
+			path = NSDictionnary;
+			sourceTree = "<group>";
+		};
+		EF0CCA8C1D5881070063719E /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA8D1D5881070063719E /* UIColor+Hex.h */,
+				EF0CCA8E1D5881070063719E /* UIColor+Hex.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		EF0CCA901D5881DF0063719E /* SQLite_FMDB封装 */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA911D58820B0063719E /* SQLiteManager.swift */,
+			);
+			path = "SQLite_FMDB封装";
+			sourceTree = "<group>";
+		};
+		EF0CCA951D5883410063719E /* 动画相关 */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA961D5883410063719E /* PhotoBrowserAnimator.swift */,
+			);
+			path = "动画相关";
+			sourceTree = "<group>";
+		};
+		EF0CCA981D5884220063719E /* UIImage相关 */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCA991D5884220063719E /* UIImage+Render.h */,
+				EF0CCA9A1D5884220063719E /* UIImage+Render.m */,
+				EF0CCA9B1D5884220063719E /* UIImageView+Download.h */,
+				EF0CCA9C1D5884220063719E /* UIImageView+Download.m */,
+			);
+			path = "UIImage相关";
+			sourceTree = "<group>";
+		};
+		EF0CCAA31D58874A0063719E /* UIView相关 */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCAA41D58874A0063719E /* UIView+Frame.h */,
+				EF0CCAA51D58874A0063719E /* UIView+Frame.m */,
+			);
+			path = "UIView相关";
+			sourceTree = "<group>";
+		};
+		EF0CCAA71D5887F80063719E /* File相关 */ = {
+			isa = PBXGroup;
+			children = (
+				EF0CCAA81D5887F80063719E /* DGLFileManager.h */,
+				EF0CCAA91D5887F80063719E /* DGLFileManager.m */,
+			);
+			path = "File相关";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF0CCA691D5876C00063719E /* Build configuration list for PBXNativeTarget "DGLTools" */;
 			buildPhases = (
+				DC32EAF68004BEC134666BC2 /* [CP] Check Pods Manifest.lock */,
 				EF0CCA4E1D5876C00063719E /* Sources */,
 				EF0CCA4F1D5876C00063719E /* Frameworks */,
 				EF0CCA501D5876C00063719E /* Resources */,
+				3CF51E8EFC72BFC2B947BB0D /* [CP] Embed Pods Frameworks */,
+				0A570072E5B8C81C5D3646ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,15 +342,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A570072E5B8C81C5D3646ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CF51E8EFC72BFC2B947BB0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC32EAF68004BEC134666BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF0CCA4E1D5876C00063719E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF0CCA5D1D5876C00063719E /* ViewController.m in Sources */,
+				EF0CCA851D587E7C0063719E /* NSString+Hash.m in Sources */,
 				EF0CCA5A1D5876C00063719E /* AppDelegate.m in Sources */,
+				EF0CCA9E1D5884220063719E /* UIImageView+Download.m in Sources */,
+				EF0CCA921D58820B0063719E /* SQLiteManager.swift in Sources */,
+				EF0CCA8B1D5880A70063719E /* NSDictionary+Log.m in Sources */,
+				EF0CCA781D587AC60063719E /* QRCodeManager.swift in Sources */,
 				EF0CCA571D5876C00063719E /* main.m in Sources */,
+				EF0CCA841D587E7C0063719E /* EncryptionTools.m in Sources */,
+				EF0CCA861D587E7C0063719E /* RSACryptor.m in Sources */,
+				EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */,
+				EF0CCA8F1D5881070063719E /* UIColor+Hex.m in Sources */,
 				EF0CCA721D5877600063719E /* QRCodeManager.m in Sources */,
+				EF0CCA7C1D587C1F0063719E /* DGLHttpTool.m in Sources */,
+				EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */,
+				EF0CCA971D5883410063719E /* PhotoBrowserAnimator.swift in Sources */,
+				EF0CCA9D1D5884220063719E /* UIImage+Render.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,23 +521,32 @@
 		};
 		EF0CCA6A1D5876C00063719E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E9F4FDE6D17D68960FCD4C /* Pods-DGLTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DGLTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DGL.DGLTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		EF0CCA6B1D5876C00063719E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A765C8F9E35BFDF9E940BED9 /* Pods-DGLTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DGLTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DGL.DGLTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -340,6 +569,7 @@
 				EF0CCA6B1D5876C00063719E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
