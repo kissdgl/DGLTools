@@ -29,6 +29,7 @@
 		EF0CCA9E1D5884220063719E /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA9C1D5884220063719E /* UIImageView+Download.m */; };
 		EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA51D58874A0063719E /* UIView+Frame.m */; };
 		EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA91D5887F80063719E /* DGLFileManager.m */; };
+		EFDC87D31D5A3B93007991DB /* LocationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC87D21D5A3B93007991DB /* LocationTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		EF0CCAA51D58874A0063719E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		EF0CCAA81D5887F80063719E /* DGLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLFileManager.h; sourceTree = "<group>"; };
 		EF0CCAA91D5887F80063719E /* DGLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLFileManager.m; sourceTree = "<group>"; };
+		EFDC87D21D5A3B93007991DB /* LocationTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		EF0CCA6C1D5877380063719E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EFDC87D11D5A3B93007991DB /* 定位相关 */,
 				EF0CCAA71D5887F80063719E /* File相关 */,
 				EF0CCAA31D58874A0063719E /* UIView相关 */,
 				EF0CCA981D5884220063719E /* UIImage相关 */,
@@ -273,6 +276,14 @@
 			path = "File相关";
 			sourceTree = "<group>";
 		};
+		EFDC87D11D5A3B93007991DB /* 定位相关 */ = {
+			isa = PBXGroup;
+			children = (
+				EFDC87D21D5A3B93007991DB /* LocationTools.swift */,
+			);
+			path = "定位相关";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -395,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDC87D31D5A3B93007991DB /* LocationTools.swift in Sources */,
 				EF0CCA5D1D5876C00063719E /* ViewController.m in Sources */,
 				EF0CCA851D587E7C0063719E /* NSString+Hash.m in Sources */,
 				EF0CCA5A1D5876C00063719E /* AppDelegate.m in Sources */,
