@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DGLTools-Swift.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    [self test];
+
+    [self setup];
 }
 
-- (void)test {
+
+
+- (void)setup {
     
+    LRTableView *lrTableView = [[LRTableView alloc] init];
+    lrTableView.leftTableView.backgroundColor = [UIColor orangeColor];
+    lrTableView.rightTableView.backgroundColor = [UIColor blueColor];
+    lrTableView.frame = CGRectMake(100, 100, 100, 300);
+    
+    [self.view addSubview:lrTableView];
     
 }
 

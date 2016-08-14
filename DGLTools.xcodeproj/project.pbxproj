@@ -29,6 +29,7 @@
 		EF0CCA9E1D5884220063719E /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA9C1D5884220063719E /* UIImageView+Download.m */; };
 		EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA51D58874A0063719E /* UIView+Frame.m */; };
 		EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA91D5887F80063719E /* DGLFileManager.m */; };
+		EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E64E91D60B8FA0065F977 /* LRTableView.swift */; };
 		EFDC87D31D5A3B93007991DB /* LocationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC87D21D5A3B93007991DB /* LocationTools.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		EF0CCAA51D58874A0063719E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		EF0CCAA81D5887F80063719E /* DGLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLFileManager.h; sourceTree = "<group>"; };
 		EF0CCAA91D5887F80063719E /* DGLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLFileManager.m; sourceTree = "<group>"; };
+		EF4E64E91D60B8FA0065F977 /* LRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRTableView.swift; sourceTree = "<group>"; };
 		EFDC87D21D5A3B93007991DB /* LocationTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 		EF0CCA6C1D5877380063719E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EF4E64E81D60B8FA0065F977 /* 左右TableView */,
 				EFDC87D11D5A3B93007991DB /* 定位相关 */,
 				EF0CCAA71D5887F80063719E /* File相关 */,
 				EF0CCAA31D58874A0063719E /* UIView相关 */,
@@ -274,6 +277,14 @@
 				EF0CCAA91D5887F80063719E /* DGLFileManager.m */,
 			);
 			path = "File相关";
+			sourceTree = "<group>";
+		};
+		EF4E64E81D60B8FA0065F977 /* 左右TableView */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E64E91D60B8FA0065F977 /* LRTableView.swift */,
+			);
+			path = "左右TableView";
 			sourceTree = "<group>";
 		};
 		EFDC87D11D5A3B93007991DB /* 定位相关 */ = {
@@ -419,6 +430,7 @@
 				EF0CCA861D587E7C0063719E /* RSACryptor.m in Sources */,
 				EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */,
 				EF0CCA8F1D5881070063719E /* UIColor+Hex.m in Sources */,
+				EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */,
 				EF0CCA721D5877600063719E /* QRCodeManager.m in Sources */,
 				EF0CCA7C1D587C1F0063719E /* DGLHttpTool.m in Sources */,
 				EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */,
@@ -537,6 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = DGLTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DGL.DGLTools;
@@ -553,6 +566,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = DGLTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DGL.DGLTools;
