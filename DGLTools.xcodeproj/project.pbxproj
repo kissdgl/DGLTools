@@ -30,6 +30,7 @@
 		EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA51D58874A0063719E /* UIView+Frame.m */; };
 		EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA91D5887F80063719E /* DGLFileManager.m */; };
 		EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E64E91D60B8FA0065F977 /* LRTableView.swift */; };
+		EF7003BE1D656171009C4566 /* UIImage+GetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7003BD1D656171009C4566 /* UIImage+GetColor.m */; };
 		EFDC87D31D5A3B93007991DB /* LocationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC87D21D5A3B93007991DB /* LocationTools.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		EF0CCAA81D5887F80063719E /* DGLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLFileManager.h; sourceTree = "<group>"; };
 		EF0CCAA91D5887F80063719E /* DGLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLFileManager.m; sourceTree = "<group>"; };
 		EF4E64E91D60B8FA0065F977 /* LRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRTableView.swift; sourceTree = "<group>"; };
+		EF7003BC1D656171009C4566 /* UIImage+GetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetColor.h"; sourceTree = "<group>"; };
+		EF7003BD1D656171009C4566 /* UIImage+GetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetColor.m"; sourceTree = "<group>"; };
 		EFDC87D21D5A3B93007991DB /* LocationTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -253,6 +256,8 @@
 		EF0CCA981D5884220063719E /* UIImage相关 */ = {
 			isa = PBXGroup;
 			children = (
+				EF7003BC1D656171009C4566 /* UIImage+GetColor.h */,
+				EF7003BD1D656171009C4566 /* UIImage+GetColor.m */,
 				EF0CCA991D5884220063719E /* UIImage+Render.h */,
 				EF0CCA9A1D5884220063719E /* UIImage+Render.m */,
 				EF0CCA9B1D5884220063719E /* UIImageView+Download.h */,
@@ -421,6 +426,7 @@
 				EF0CCA5D1D5876C00063719E /* ViewController.m in Sources */,
 				EF0CCA851D587E7C0063719E /* NSString+Hash.m in Sources */,
 				EF0CCA5A1D5876C00063719E /* AppDelegate.m in Sources */,
+				EF7003BE1D656171009C4566 /* UIImage+GetColor.m in Sources */,
 				EF0CCA9E1D5884220063719E /* UIImageView+Download.m in Sources */,
 				EF0CCA921D58820B0063719E /* SQLiteManager.swift in Sources */,
 				EF0CCA8B1D5880A70063719E /* NSDictionary+Log.m in Sources */,
@@ -550,6 +556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = DGLTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DGL.DGLTools;
@@ -567,6 +574,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = DGLTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DGL.DGLTools;

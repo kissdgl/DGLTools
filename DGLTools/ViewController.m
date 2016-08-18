@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DGLTools-Swift.h"
+#import <objc/message.h>
 
 @interface ViewController ()
 
@@ -25,13 +26,10 @@
 
 - (void)setup {
     
-    LRTableView *lrTableView = [[LRTableView alloc] init];
-    lrTableView.leftTableView.backgroundColor = [UIColor orangeColor];
-    lrTableView.rightTableView.backgroundColor = [UIColor blueColor];
-    lrTableView.frame = CGRectMake(100, 100, 100, 300);
     
-    [self.view addSubview:lrTableView];
-    
+    NSObject *objc = objc_msgSend([NSObject class], @selector(alloc));
+    objc = objc_msgSend(objc, @selector(init));
+    NSLog(@"%@", objc);
 }
 
 @end
