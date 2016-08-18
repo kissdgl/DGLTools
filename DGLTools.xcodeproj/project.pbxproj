@@ -31,6 +31,7 @@
 		EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA91D5887F80063719E /* DGLFileManager.m */; };
 		EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E64E91D60B8FA0065F977 /* LRTableView.swift */; };
 		EF7003BE1D656171009C4566 /* UIImage+GetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7003BD1D656171009C4566 /* UIImage+GetColor.m */; };
+		EF7005241D65D92E009C4566 /* NSDictionary+PropertyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7005231D65D92E009C4566 /* NSDictionary+PropertyCode.m */; };
 		EFDC87D31D5A3B93007991DB /* LocationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC87D21D5A3B93007991DB /* LocationTools.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,8 @@
 		EF4E64E91D60B8FA0065F977 /* LRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRTableView.swift; sourceTree = "<group>"; };
 		EF7003BC1D656171009C4566 /* UIImage+GetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetColor.h"; sourceTree = "<group>"; };
 		EF7003BD1D656171009C4566 /* UIImage+GetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetColor.m"; sourceTree = "<group>"; };
+		EF7005221D65D92E009C4566 /* NSDictionary+PropertyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PropertyCode.h"; sourceTree = "<group>"; };
+		EF7005231D65D92E009C4566 /* NSDictionary+PropertyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PropertyCode.m"; sourceTree = "<group>"; };
 		EFDC87D21D5A3B93007991DB /* LocationTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -223,6 +226,8 @@
 		EF0CCA871D587F110063719E /* NSDictionnary */ = {
 			isa = PBXGroup;
 			children = (
+				EF7005221D65D92E009C4566 /* NSDictionary+PropertyCode.h */,
+				EF7005231D65D92E009C4566 /* NSDictionary+PropertyCode.m */,
 				EF0CCA8A1D5880A70063719E /* NSDictionary+Log.m */,
 			);
 			path = NSDictionnary;
@@ -441,6 +446,7 @@
 				EF0CCA7C1D587C1F0063719E /* DGLHttpTool.m in Sources */,
 				EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */,
 				EF0CCA971D5883410063719E /* PhotoBrowserAnimator.swift in Sources */,
+				EF7005241D65D92E009C4566 /* NSDictionary+PropertyCode.m in Sources */,
 				EF0CCA9D1D5884220063719E /* UIImage+Render.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
