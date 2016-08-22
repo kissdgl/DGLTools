@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A5082112FF316D190A67617E /* Pods_DGLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */; };
+		EF0215871D6AA6D2003F035F /* DGLWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0215861D6AA6D2003F035F /* DGLWaterflowLayout.m */; };
 		EF0CCA571D5876C00063719E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA561D5876C00063719E /* main.m */; };
 		EF0CCA5A1D5876C00063719E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA591D5876C00063719E /* AppDelegate.m */; };
 		EF0CCA5D1D5876C00063719E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA5C1D5876C00063719E /* ViewController.m */; };
@@ -32,6 +33,7 @@
 		EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E64E91D60B8FA0065F977 /* LRTableView.swift */; };
 		EF7003BE1D656171009C4566 /* UIImage+GetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7003BD1D656171009C4566 /* UIImage+GetColor.m */; };
 		EF7005241D65D92E009C4566 /* NSDictionary+PropertyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7005231D65D92E009C4566 /* NSDictionary+PropertyCode.m */; };
+		EFC33ECE1D6AF44D00787804 /* DGLFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC33ECD1D6AF44D00787804 /* DGLFlowLayout.m */; };
 		EFDC87D31D5A3B93007991DB /* LocationTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDC87D21D5A3B93007991DB /* LocationTools.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E9F4FDE6D17D68960FCD4C /* Pods-DGLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools.debug.xcconfig"; sourceTree = "<group>"; };
 		A765C8F9E35BFDF9E940BED9 /* Pods-DGLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools.release.xcconfig"; sourceTree = "<group>"; };
+		EF0215851D6AA6D2003F035F /* DGLWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLWaterflowLayout.h; sourceTree = "<group>"; };
+		EF0215861D6AA6D2003F035F /* DGLWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLWaterflowLayout.m; sourceTree = "<group>"; };
 		EF0CCA521D5876C00063719E /* DGLTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGLTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0CCA561D5876C00063719E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF0CCA581D5876C00063719E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		EF7003BD1D656171009C4566 /* UIImage+GetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetColor.m"; sourceTree = "<group>"; };
 		EF7005221D65D92E009C4566 /* NSDictionary+PropertyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PropertyCode.h"; sourceTree = "<group>"; };
 		EF7005231D65D92E009C4566 /* NSDictionary+PropertyCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PropertyCode.m"; sourceTree = "<group>"; };
+		EFC33ECC1D6AF44D00787804 /* DGLFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLFlowLayout.h; sourceTree = "<group>"; };
+		EFC33ECD1D6AF44D00787804 /* DGLFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLFlowLayout.m; sourceTree = "<group>"; };
 		EFDC87D21D5A3B93007991DB /* LocationTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +117,17 @@
 				08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF0215841D6AA6D2003F035F /* 自动布局 */ = {
+			isa = PBXGroup;
+			children = (
+				EFC33ECC1D6AF44D00787804 /* DGLFlowLayout.h */,
+				EFC33ECD1D6AF44D00787804 /* DGLFlowLayout.m */,
+				EF0215851D6AA6D2003F035F /* DGLWaterflowLayout.h */,
+				EF0215861D6AA6D2003F035F /* DGLWaterflowLayout.m */,
+			);
+			path = "自动布局";
 			sourceTree = "<group>";
 		};
 		EF0CCA491D5876C00063719E = {
@@ -159,6 +176,7 @@
 		EF0CCA6C1D5877380063719E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EF0215841D6AA6D2003F035F /* 自动布局 */,
 				EF4E64E81D60B8FA0065F977 /* 左右TableView */,
 				EFDC87D11D5A3B93007991DB /* 定位相关 */,
 				EF0CCAA71D5887F80063719E /* File相关 */,
@@ -445,7 +463,9 @@
 				EF0CCA721D5877600063719E /* QRCodeManager.m in Sources */,
 				EF0CCA7C1D587C1F0063719E /* DGLHttpTool.m in Sources */,
 				EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */,
+				EFC33ECE1D6AF44D00787804 /* DGLFlowLayout.m in Sources */,
 				EF0CCA971D5883410063719E /* PhotoBrowserAnimator.swift in Sources */,
+				EF0215871D6AA6D2003F035F /* DGLWaterflowLayout.m in Sources */,
 				EF7005241D65D92E009C4566 /* NSDictionary+PropertyCode.m in Sources */,
 				EF0CCA9D1D5884220063719E /* UIImage+Render.m in Sources */,
 			);
