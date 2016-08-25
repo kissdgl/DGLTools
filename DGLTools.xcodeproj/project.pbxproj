@@ -30,6 +30,10 @@
 		EF0CCA9E1D5884220063719E /* UIImageView+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA9C1D5884220063719E /* UIImageView+Download.m */; };
 		EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA51D58874A0063719E /* UIView+Frame.m */; };
 		EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCAA91D5887F80063719E /* DGLFileManager.m */; };
+		EF1648E21D6EDC6F00B0BBAC /* FullView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1648DC1D6EDC6F00B0BBAC /* FullView.m */; };
+		EF1648E31D6EDC6F00B0BBAC /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1648DE1D6EDC6F00B0BBAC /* FullViewController.m */; };
+		EF1648E41D6EDC6F00B0BBAC /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1648E01D6EDC6F00B0BBAC /* VideoPlayView.m */; };
+		EF1648E51D6EDC6F00B0BBAC /* VideoPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1648E11D6EDC6F00B0BBAC /* VideoPlayView.xib */; };
 		EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E64E91D60B8FA0065F977 /* LRTableView.swift */; };
 		EF7003BE1D656171009C4566 /* UIImage+GetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7003BD1D656171009C4566 /* UIImage+GetColor.m */; };
 		EF7005241D65D92E009C4566 /* NSDictionary+PropertyCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7005231D65D92E009C4566 /* NSDictionary+PropertyCode.m */; };
@@ -78,6 +82,13 @@
 		EF0CCAA51D58874A0063719E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		EF0CCAA81D5887F80063719E /* DGLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLFileManager.h; sourceTree = "<group>"; };
 		EF0CCAA91D5887F80063719E /* DGLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLFileManager.m; sourceTree = "<group>"; };
+		EF1648DB1D6EDC6F00B0BBAC /* FullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullView.h; sourceTree = "<group>"; };
+		EF1648DC1D6EDC6F00B0BBAC /* FullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullView.m; sourceTree = "<group>"; };
+		EF1648DD1D6EDC6F00B0BBAC /* FullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullViewController.h; sourceTree = "<group>"; };
+		EF1648DE1D6EDC6F00B0BBAC /* FullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullViewController.m; sourceTree = "<group>"; };
+		EF1648DF1D6EDC6F00B0BBAC /* VideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayView.h; sourceTree = "<group>"; };
+		EF1648E01D6EDC6F00B0BBAC /* VideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayView.m; sourceTree = "<group>"; };
+		EF1648E11D6EDC6F00B0BBAC /* VideoPlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlayView.xib; sourceTree = "<group>"; };
 		EF4E64E91D60B8FA0065F977 /* LRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRTableView.swift; sourceTree = "<group>"; };
 		EF7003BC1D656171009C4566 /* UIImage+GetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GetColor.h"; sourceTree = "<group>"; };
 		EF7003BD1D656171009C4566 /* UIImage+GetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GetColor.m"; sourceTree = "<group>"; };
@@ -176,6 +187,7 @@
 		EF0CCA6C1D5877380063719E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EF1648DA1D6EDC6F00B0BBAC /* 自定义播放 */,
 				EF0215841D6AA6D2003F035F /* 自动布局 */,
 				EF4E64E81D60B8FA0065F977 /* 左右TableView */,
 				EFDC87D11D5A3B93007991DB /* 定位相关 */,
@@ -307,6 +319,20 @@
 			path = "File相关";
 			sourceTree = "<group>";
 		};
+		EF1648DA1D6EDC6F00B0BBAC /* 自定义播放 */ = {
+			isa = PBXGroup;
+			children = (
+				EF1648DB1D6EDC6F00B0BBAC /* FullView.h */,
+				EF1648DC1D6EDC6F00B0BBAC /* FullView.m */,
+				EF1648DD1D6EDC6F00B0BBAC /* FullViewController.h */,
+				EF1648DE1D6EDC6F00B0BBAC /* FullViewController.m */,
+				EF1648DF1D6EDC6F00B0BBAC /* VideoPlayView.h */,
+				EF1648E01D6EDC6F00B0BBAC /* VideoPlayView.m */,
+				EF1648E11D6EDC6F00B0BBAC /* VideoPlayView.xib */,
+			);
+			path = "自定义播放";
+			sourceTree = "<group>";
+		};
 		EF4E64E81D60B8FA0065F977 /* 左右TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +412,7 @@
 			files = (
 				EF0CCA651D5876C00063719E /* LaunchScreen.storyboard in Resources */,
 				EF0CCA621D5876C00063719E /* Assets.xcassets in Resources */,
+				EF1648E51D6EDC6F00B0BBAC /* VideoPlayView.xib in Resources */,
 				EF0CCA601D5876C00063719E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,10 +483,12 @@
 				EF0CCA781D587AC60063719E /* QRCodeManager.swift in Sources */,
 				EF0CCA571D5876C00063719E /* main.m in Sources */,
 				EF0CCA841D587E7C0063719E /* EncryptionTools.m in Sources */,
+				EF1648E21D6EDC6F00B0BBAC /* FullView.m in Sources */,
 				EF0CCA861D587E7C0063719E /* RSACryptor.m in Sources */,
 				EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */,
 				EF0CCA8F1D5881070063719E /* UIColor+Hex.m in Sources */,
 				EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */,
+				EF1648E41D6EDC6F00B0BBAC /* VideoPlayView.m in Sources */,
 				EF0CCA721D5877600063719E /* QRCodeManager.m in Sources */,
 				EF0CCA7C1D587C1F0063719E /* DGLHttpTool.m in Sources */,
 				EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */,
@@ -468,6 +497,7 @@
 				EF0215871D6AA6D2003F035F /* DGLWaterflowLayout.m in Sources */,
 				EF7005241D65D92E009C4566 /* NSDictionary+PropertyCode.m in Sources */,
 				EF0CCA9D1D5884220063719E /* UIImage+Render.m in Sources */,
+				EF1648E31D6EDC6F00B0BBAC /* FullViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
