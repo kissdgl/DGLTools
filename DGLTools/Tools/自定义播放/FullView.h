@@ -2,8 +2,8 @@
 //  FullView.h
 //  02-远程视频播放(AVPlayer)
 //
-//  Created by apple on 15/8/26.
-//  Copyright (c) 2015年 xiaomage. All rights reserved.
+//  Created by 丁贵林 on 16/8/8.
+//  Copyright © 2016年 丁贵林. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
