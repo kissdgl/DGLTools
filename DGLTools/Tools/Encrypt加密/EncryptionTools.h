@@ -13,16 +13,16 @@
  *  终端测试指令
  *
  *  DES(ECB)加密
- *  $ echo -n 520it | openssl enc -des-ecb -K 616263 -nosalt | base64
+ *  $ echo -n kissdgl | openssl enc -des-ecb -K 616263 -nosalt | base64
  *
   * DES(CBC)加密
- *  $ echo -n 520it | openssl enc -des-cbc -iv 0102030405060708 -K 616263 -nosalt | base64
+ *  $ echo -n kissdgl | openssl enc -des-cbc -iv 0102030405060708 -K 616263 -nosalt | base64
  *
  *  AES(ECB)加密
- *  $ echo -n 520it | openssl enc -aes-128-ecb -K 616263 -nosalt | base64
+ *  $ echo -n kissdgl | openssl enc -aes-128-ecb -K 616263 -nosalt | base64
  *
  *  AES(CBC)加密
- *  $ echo -n 520it | openssl enc -aes-128-cbc -iv 0102030405060708 -K 616263 -nosalt | base64
+ *  $ echo -n kissdgl | openssl enc -aes-128-cbc -iv 0102030405060708 -K 616263 -nosalt | base64
  ***********************************************************************
  *  DES(ECB)解密
  *  $ echo -n VqYjXo2ZlU4= | base64 -D | openssl enc -des-ecb -K 616263 -nosalt -d
