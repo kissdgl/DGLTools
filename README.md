@@ -86,7 +86,7 @@
 #### 15.字典转模型
 * UIView+Frame.h
 	* 框架: NSObject+Model.h
-	* 功能: 时候用Runtime和KVC实现快速字典转模型
+	* 功能: 使用Runtime和KVC实现快速字典转模型
 
 	
 
