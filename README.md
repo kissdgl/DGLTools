@@ -82,6 +82,11 @@
 * UIView+Frame.h
 	* 框架: UIKit
 	* 功能: 可直接对frame等进行赋值
+	
+#### 15.字典转模型
+* UIView+Frame.h
+	* 框架: NSObject+Model.h
+	* 功能: 时候用Runtime和KVC实现快速字典转模型
 
 	
 
