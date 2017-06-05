@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2BDB2D1EE560D1004693BB /* DGLCSVTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB261EE560D1004693BB /* DGLCSVTool.m */; };
+		0D2BDB2E1EE560D1004693BB /* DGLPDFDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB291EE560D1004693BB /* DGLPDFDrawer.m */; };
+		0D2BDB2F1EE560D1004693BB /* AUTJsonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB2C1EE560D1004693BB /* AUTJsonManager.m */; };
+		0D2BDB331EE5615A004693BB /* DGLLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB321EE5615A004693BB /* DGLLog.m */; };
+		0D2BDB371EE56239004693BB /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB361EE56239004693BB /* NSString+Regex.m */; };
+		0D2BDB471EE56351004693BB /* CoordinateContextTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB3B1EE56351004693BB /* CoordinateContextTools.m */; };
+		0D2BDB481EE56351004693BB /* CoordinateDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB3D1EE56351004693BB /* CoordinateDrawer.m */; };
+		0D2BDB491EE56351004693BB /* UICoordinateDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB3F1EE56351004693BB /* UICoordinateDataView.m */; };
+		0D2BDB4A1EE56351004693BB /* UICoordinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB411EE56351004693BB /* UICoordinateView.m */; };
+		0D2BDB4B1EE56351004693BB /* UILiveDataGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB431EE56351004693BB /* UILiveDataGraphView.m */; };
+		0D2BDB4C1EE56351004693BB /* DGLGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2BDB461EE56351004693BB /* DGLGaugeView.m */; };
 		A5082112FF316D190A67617E /* Pods_DGLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */; };
 		EF0215871D6AA6D2003F035F /* DGLWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0215861D6AA6D2003F035F /* DGLWaterflowLayout.m */; };
 		EF0CCA571D5876C00063719E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0CCA561D5876C00063719E /* main.m */; };
@@ -62,6 +73,28 @@
 
 /* Begin PBXFileReference section */
 		08848EA04F0D5DAC02D332E8 /* Pods_DGLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2BDB251EE560D1004693BB /* DGLCSVTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLCSVTool.h; sourceTree = "<group>"; };
+		0D2BDB261EE560D1004693BB /* DGLCSVTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLCSVTool.m; sourceTree = "<group>"; };
+		0D2BDB281EE560D1004693BB /* DGLPDFDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLPDFDrawer.h; sourceTree = "<group>"; };
+		0D2BDB291EE560D1004693BB /* DGLPDFDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLPDFDrawer.m; sourceTree = "<group>"; };
+		0D2BDB2B1EE560D1004693BB /* AUTJsonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUTJsonManager.h; sourceTree = "<group>"; };
+		0D2BDB2C1EE560D1004693BB /* AUTJsonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUTJsonManager.m; sourceTree = "<group>"; };
+		0D2BDB311EE5615A004693BB /* DGLLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLLog.h; sourceTree = "<group>"; };
+		0D2BDB321EE5615A004693BB /* DGLLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLLog.m; sourceTree = "<group>"; };
+		0D2BDB351EE56239004693BB /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		0D2BDB361EE56239004693BB /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		0D2BDB3A1EE56351004693BB /* CoordinateContextTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateContextTools.h; sourceTree = "<group>"; };
+		0D2BDB3B1EE56351004693BB /* CoordinateContextTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateContextTools.m; sourceTree = "<group>"; };
+		0D2BDB3C1EE56351004693BB /* CoordinateDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateDrawer.h; sourceTree = "<group>"; };
+		0D2BDB3D1EE56351004693BB /* CoordinateDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateDrawer.m; sourceTree = "<group>"; };
+		0D2BDB3E1EE56351004693BB /* UICoordinateDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICoordinateDataView.h; sourceTree = "<group>"; };
+		0D2BDB3F1EE56351004693BB /* UICoordinateDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICoordinateDataView.m; sourceTree = "<group>"; };
+		0D2BDB401EE56351004693BB /* UICoordinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICoordinateView.h; sourceTree = "<group>"; };
+		0D2BDB411EE56351004693BB /* UICoordinateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICoordinateView.m; sourceTree = "<group>"; };
+		0D2BDB421EE56351004693BB /* UILiveDataGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILiveDataGraphView.h; sourceTree = "<group>"; };
+		0D2BDB431EE56351004693BB /* UILiveDataGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILiveDataGraphView.m; sourceTree = "<group>"; };
+		0D2BDB451EE56351004693BB /* DGLGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLGaugeView.h; sourceTree = "<group>"; };
+		0D2BDB461EE56351004693BB /* DGLGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLGaugeView.m; sourceTree = "<group>"; };
 		95E9F4FDE6D17D68960FCD4C /* Pods-DGLTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools.debug.xcconfig"; sourceTree = "<group>"; };
 		A765C8F9E35BFDF9E940BED9 /* Pods-DGLTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGLTools/Pods-DGLTools.release.xcconfig"; sourceTree = "<group>"; };
 		EF0215851D6AA6D2003F035F /* DGLWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLWaterflowLayout.h; sourceTree = "<group>"; };
@@ -151,6 +184,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2BDB241EE560D1004693BB /* DGLCSVTool */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB251EE560D1004693BB /* DGLCSVTool.h */,
+				0D2BDB261EE560D1004693BB /* DGLCSVTool.m */,
+			);
+			path = DGLCSVTool;
+			sourceTree = "<group>";
+		};
+		0D2BDB271EE560D1004693BB /* DGLPDFDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB281EE560D1004693BB /* DGLPDFDrawer.h */,
+				0D2BDB291EE560D1004693BB /* DGLPDFDrawer.m */,
+			);
+			path = DGLPDFDrawer;
+			sourceTree = "<group>";
+		};
+		0D2BDB2A1EE560D1004693BB /* JsonTool */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB2B1EE560D1004693BB /* AUTJsonManager.h */,
+				0D2BDB2C1EE560D1004693BB /* AUTJsonManager.m */,
+			);
+			path = JsonTool;
+			sourceTree = "<group>";
+		};
+		0D2BDB301EE5613E004693BB /* 收集打印日志 */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB311EE5615A004693BB /* DGLLog.h */,
+				0D2BDB321EE5615A004693BB /* DGLLog.m */,
+			);
+			path = "收集打印日志";
+			sourceTree = "<group>";
+		};
+		0D2BDB341EE56216004693BB /* 常用正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB351EE56239004693BB /* NSString+Regex.h */,
+				0D2BDB361EE56239004693BB /* NSString+Regex.m */,
+			);
+			path = "常用正则表达式";
+			sourceTree = "<group>";
+		};
+		0D2BDB381EE56351004693BB /* 绘制动态折线图 */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB391EE56351004693BB /* DrawCoordinate */,
+				0D2BDB421EE56351004693BB /* UILiveDataGraphView.h */,
+				0D2BDB431EE56351004693BB /* UILiveDataGraphView.m */,
+			);
+			path = "绘制动态折线图";
+			sourceTree = "<group>";
+		};
+		0D2BDB391EE56351004693BB /* DrawCoordinate */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB3A1EE56351004693BB /* CoordinateContextTools.h */,
+				0D2BDB3B1EE56351004693BB /* CoordinateContextTools.m */,
+				0D2BDB3C1EE56351004693BB /* CoordinateDrawer.h */,
+				0D2BDB3D1EE56351004693BB /* CoordinateDrawer.m */,
+				0D2BDB3E1EE56351004693BB /* UICoordinateDataView.h */,
+				0D2BDB3F1EE56351004693BB /* UICoordinateDataView.m */,
+				0D2BDB401EE56351004693BB /* UICoordinateView.h */,
+				0D2BDB411EE56351004693BB /* UICoordinateView.m */,
+			);
+			path = DrawCoordinate;
+			sourceTree = "<group>";
+		};
+		0D2BDB441EE56351004693BB /* 绘制仪表盘 */ = {
+			isa = PBXGroup;
+			children = (
+				0D2BDB451EE56351004693BB /* DGLGaugeView.h */,
+				0D2BDB461EE56351004693BB /* DGLGaugeView.m */,
+			);
+			path = "绘制仪表盘";
+			sourceTree = "<group>";
+		};
 		4DC63EA4E1B685148627FBD7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +338,13 @@
 		EF0CCA6C1D5877380063719E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				0D2BDB381EE56351004693BB /* 绘制动态折线图 */,
+				0D2BDB441EE56351004693BB /* 绘制仪表盘 */,
+				0D2BDB341EE56216004693BB /* 常用正则表达式 */,
+				0D2BDB301EE5613E004693BB /* 收集打印日志 */,
+				0D2BDB241EE560D1004693BB /* DGLCSVTool */,
+				0D2BDB271EE560D1004693BB /* DGLPDFDrawer */,
+				0D2BDB2A1EE560D1004693BB /* JsonTool */,
 				EF62E65A1D79B3C2003B2DEA /* 字典转模型 */,
 				EF1648DA1D6EDC6F00B0BBAC /* 自定义播放 */,
 				EF0215841D6AA6D2003F035F /* 自动布局 */,
@@ -567,23 +686,33 @@
 			files = (
 				EFDC87D31D5A3B93007991DB /* LocationTools.swift in Sources */,
 				EF0CCA5D1D5876C00063719E /* ViewController.m in Sources */,
+				0D2BDB4C1EE56351004693BB /* DGLGaugeView.m in Sources */,
 				EF0CCA851D587E7C0063719E /* NSString+Hash.m in Sources */,
 				EF0CCA5A1D5876C00063719E /* AppDelegate.m in Sources */,
+				0D2BDB2F1EE560D1004693BB /* AUTJsonManager.m in Sources */,
+				0D2BDB2D1EE560D1004693BB /* DGLCSVTool.m in Sources */,
 				EF7003BE1D656171009C4566 /* UIImage+GetColor.m in Sources */,
 				EF0CCA9E1D5884220063719E /* UIImageView+Download.m in Sources */,
+				0D2BDB331EE5615A004693BB /* DGLLog.m in Sources */,
+				0D2BDB371EE56239004693BB /* NSString+Regex.m in Sources */,
 				EF62E65D1D79B3C2003B2DEA /* NSObject+Model.m in Sources */,
 				EF0CCA921D58820B0063719E /* SQLiteManager.swift in Sources */,
 				EF0CCA8B1D5880A70063719E /* NSDictionary+Log.m in Sources */,
 				EF0CCA781D587AC60063719E /* QRCodeManager.swift in Sources */,
 				EF0CCA571D5876C00063719E /* main.m in Sources */,
 				EF0CCA841D587E7C0063719E /* EncryptionTools.m in Sources */,
+				0D2BDB491EE56351004693BB /* UICoordinateDataView.m in Sources */,
+				0D2BDB4B1EE56351004693BB /* UILiveDataGraphView.m in Sources */,
 				EF1648E21D6EDC6F00B0BBAC /* FullView.m in Sources */,
+				0D2BDB2E1EE560D1004693BB /* DGLPDFDrawer.m in Sources */,
 				EF0CCA861D587E7C0063719E /* RSACryptor.m in Sources */,
 				EF0CCAAA1D5887F80063719E /* DGLFileManager.m in Sources */,
 				EF0CCA8F1D5881070063719E /* UIColor+Hex.m in Sources */,
 				EF4E64EA1D60B8FA0065F977 /* LRTableView.swift in Sources */,
 				EF1648E41D6EDC6F00B0BBAC /* VideoPlayView.m in Sources */,
 				EF0CCA721D5877600063719E /* QRCodeManager.m in Sources */,
+				0D2BDB481EE56351004693BB /* CoordinateDrawer.m in Sources */,
+				0D2BDB471EE56351004693BB /* CoordinateContextTools.m in Sources */,
 				EF0CCA7C1D587C1F0063719E /* DGLHttpTool.m in Sources */,
 				EF0CCAA61D58874A0063719E /* UIView+Frame.m in Sources */,
 				EFC33ECE1D6AF44D00787804 /* DGLFlowLayout.m in Sources */,
@@ -591,6 +720,7 @@
 				EF0215871D6AA6D2003F035F /* DGLWaterflowLayout.m in Sources */,
 				EF7005241D65D92E009C4566 /* NSDictionary+PropertyCode.m in Sources */,
 				EF0CCA9D1D5884220063719E /* UIImage+Render.m in Sources */,
+				0D2BDB4A1EE56351004693BB /* UICoordinateView.m in Sources */,
 				EF1648E31D6EDC6F00B0BBAC /* FullViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
